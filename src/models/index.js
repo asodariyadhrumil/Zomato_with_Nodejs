@@ -1,0 +1,14 @@
+module.exports.Categories = require('./categories');
+module.exports.City = require('./city');
+module.exports.FoodGallary = require('./foodDetails');
+module.exports.OrderDetails = require('./orderDetails');
+module.exports.User = require('./user');
+module.exports.OrderItems = require('./orderItems');
+module.exports.login = require('./login.model');
+module.exports.OwnerDetails = require('./ownerDetails');
+module.exports.PaymentMethod = require('./paymentMethod');
+module.exports.restorant = require('./restorant.model');
+module.exports.restorant_type = require('./restorant_type.model');
+module.exports.Reviews = require('./reviews');
+module.exports.State = require('./state');
+module.exports.Token=require("./token");
