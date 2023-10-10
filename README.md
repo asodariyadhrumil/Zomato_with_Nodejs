@@ -1,7 +1,10 @@
 # Zomato_with_Nodejs
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> df7a28235fc718fee8bcaab7afafcde594388b16
 # Food Delivery Backend App 🍔
 
 Welcome to the Food Delivery Backend App repository! This Node.js application powers the backend of our food delivery service. 🚀
@@ -75,4 +78,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Questions or Issues ❓
 If you have any questions or encounter issues, please create an issue.
 
+<<<<<<< HEAD
 Enjoy building and using our Food Delivery Backend App! 🍽️
+=======
+Enjoy building and using our Food Delivery Backend App! 🍽️
+
+
+
+
+>>>>>>> df7a28235fc718fee8bcaab7afafcde594388b16
