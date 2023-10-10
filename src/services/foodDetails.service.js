@@ -1,4 +1,4 @@
-const foodDetails = require("../models/foodGallary")
+const foodDetails = require("../models/foodDetails")
 
 const createFoodDetails = async (reqBody) => {
     return foodDetails.create(reqBody)

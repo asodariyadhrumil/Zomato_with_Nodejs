@@ -1,31 +1,31 @@
-const { LoginController } = require("../../controllers");
+const { loginController } = require("../../controllers");
 const express = require("express");
 const validate = require("../../middlewares/validate");
 const auth = require("../../middlewares/auth")
-const { LoginValidation } = require("../../validations");
+const { loginValidation } = require("../../validation");
 const router = express.Router();
 
 //create Login
 router.post("/create_login",
-    validate(LoginValidation.CreateLogin),
+    validate(loginValidation.CreateLogin),
     auth(),
-  LoginController.CreateLogin
+    loginController.CreateLogin
 );
 //login list
 router.get("/login_list",
-   LoginController.LoginList
+loginController.LoginList
 );
 //login id
 router.get("/login_list/:loginId",
-    LoginController.LoginId
+loginController.LoginId
 );
 //delete login
 router.delete("/delete_login/:loginId",
-    LoginController.DeleteLogin
+    loginController.DeleteLogin
 );
 //update login
 router.put("/update_login/:loginId",
-    LoginController.UpdateLogin
+loginController.UpdateLogin
 );
 
 module.exports = router;

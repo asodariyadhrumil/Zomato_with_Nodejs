@@ -18,5 +18,5 @@ const CreateRestorant_type= {
 };
 //module expoart
 module.exports = {
-    CreateRestorant_type
+  CreateRestorant_type
 }
